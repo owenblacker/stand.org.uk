@@ -1,0 +1,193 @@
+-----Original Message-----
+From: Richard Clayton [mailto:richard@highwayman.com] 
+Sent: Monday, June 10, 2002 4:43 PM
+To: UKcrypto@chiark.greenend.org.uk
+Subject: Re: RIP s22 notices SI
+
+
+*** PGP Signature Status: good
+*** Signer: Richard Clayton <richard@highwayman.com>
+*** Signed: 2002-06-10 15:42:50
+*** Verified: 2002-06-10 16:17:35
+*** BEGIN PGP VERIFIED MESSAGE ***
+
+In article <55ED5FD3B4D2D41193E60002A5090BCD01B3DEE0@clerkenwell.pres.co
+>, Owen Blacker <owen.blacker@wheel.co.uk> writes
+
+>> -----Original Message-----
+>> Sent: Monday, June 10, 2002 2:41 PM
+>> Subject: [mt] More RIP stuff
+
+actually (another plug for the FIPR alerts service) this message (the
+97% of the text I recognise) was originally sent on Saturday as soon as
+we became aware of this development.
+
+[BTW: the Home Office RIP page still doesn't have a link to the Order]
+
+details of the alerts service at:
+
+        http://www.fipr.org/friends.html
+
+
+Anyway - here's the FIPR response:
+
+--------------------------------------------------------------------------
+
+FIPR Press Release:
+
+FOR IMMEDIATE USE: 10 June 2002
+
+FIPR appalled by huge increase in Government snooping
+-----------------------------------------------------
+
+The Regulation of Investigatory Powers (RIP) Act is to be amended before
+it even comes into force to dramatically increase the number of official
+bodies that can access personal details of phone calls and emails. The
+Act was hugely controversial when it went through Parliament in 2000,
+with defeats for the Government in the Lords and significant changes
+being made to prevent its complete rejection.
+
+Now the powers that were originally only given to the police, customs,
+secret services and the taxman are to be made available to a huge range
+of Government departments, local authorities, the NHS and even to
+Consignia (the Post Office).
+
+Ian Brown, Director of FIPR commented, "I am appalled at this huge
+increase in the scope of Government snooping. Two years ago, we were
+deeply concerned that these powers were to be given to the police
+without any judicial oversight. Now they're handing them out to a
+practically endless queue of bureaucrats in Whitehall and Town Halls."
+
+The powers contained in RIP Part I Chapter II allow notices to be served
+on telephone companies, Internet Service Providers (ISPs) or postal
+operators to obtain information such as the name and address of users,
+phone numbers called, source and destination of emails, the identity of
+web sites visited or mobile phone location data accurate to a hundred
+metres or less.
+
+However, this part of the Act has proved to be complex to implement. A
+draft Code of Practice only became available for consultation in Autumn
+2001 and is still being rewritten to reflect the poor reception it
+received. The Government is now suggesting that this process will be
+completed by August, but this is only the latest date in a long series
+of missed deadlines.
+
+Ian Brown remarked, "The difficulty that the Government has encountered
+in getting the right processes in place for the police should make us
+ultra-cautious in extending these powers to such a wide range of bodies.
+We don't think that there's been enough resources put into the oversight
+arrangements for the current proposals, let alone what will be needed
+for this huge extension. In practice, these bodies are going to obtain
+this personal data on anyone they wish, without any effective way of
+checking what they're doing".
+
+He continued, "which websites we visit or where we travel with a mobile
+phone in our pocket reveals a great deal of personal information.
+Accessing this information needs to be made more difficult, not opened
+up to this huge range of new enquirers. I look at this list and wonder
+not at who they've added, but if I can possibly think of anyone they've
+left out."
+
+Contacts for enquiries:
+-----------------------
+
+Ian Brown
+Director
+Foundation for Information Policy Research
+ian@fipr.org
+07970 164526
+
+William Heath,
+Vice-Chairman, FIPR
+william.heath@kablenet.com
+07973 115024
+
+
+Notes for editors
+-----------------
+
+1. The Foundation for Information Policy Research (www.fipr.org), is a
+   non-profit think-tank for Internet and Information Technology policy,
+   governed by an independent Board of Trustees with an Advisory Council
+   of experts.
+
+2. The order to be debated by Parliament is at:
+
+   http://www.legislation.hmso.gov.uk/si/si2002/draft/20022322.htm
+
+   it is expected to be debated by the Commons on 18th June and the
+   Lords some time after.
+
+3. A RIP s22 notice will reveal details held by a communications service
+   provider such as...
+
+        name and address
+        service usage details
+        details of who you have been calling
+        details of who has called you
+        mobile phone location info
+        source and destination of email
+        usage of web sites (but not pages within such sites)
+
+4. The current list of bodies allowed to serve RIP s22 notices is:
+
+        Police (all the forces, MOD police, NCS, NCIS)
+        Secret Intelligence Agencies (MI5, MI6, GCHQ)
+        Customs and Excise
+        Inland Revenue
+
+5. The order extends the list of public authorities that can issue RIP
+   s22 notices (ie to access traffic data from telcos and ISPs)...
+
+   ...to add the following central Government departments:
+
+   1. The Department for Environment, Food and Rural Affairs. 
+   2. The Department of Health. 
+   3. The Home Office. 
+   4. The Department of Trade and Industry. 
+   5. The Department for Transport, Local Government and the Regions. 
+   6. The Department for Work and Pensions. 
+   7. The Department of Enterprise, Trade and Investment for Northern
+      Ireland. 
+
+   AND pretty much any local authority:
+
+   8. Any local authority within the meaning of section 1 of the Local
+      Government Act 1999 
+   9. Any fire authority as defined in the Local Government (Best Value)
+      Performance Indicators Order 2000
+  10. A council constituted under section 2 of the Local Government etc.
+      (Scotland) Act 1994
+  11. A district council within the meaning of the Local Government Act
+      (Northern Ireland) 1972
+
+   AND NHS bodies in Scotland and Northern Ireland:
+
+  12. The Common Services Agency of the Scottish Health Service. 
+  13. The Northern Ireland Central Services Agency for the Health and
+      Social Services. 
+
+   AND some other bodies:
+
+  14. The Environment Agency. 
+  15. The Financial Services Authority. 
+  16. The Food Standards Agency. 
+  17. The Health and Safety Executive. 
+  18. The Information Commissioner. 
+  19. The Office of Fair Trading. 
+  20. The Postal Services Commission. 
+  21. The Scottish Drug Enforcement Agency. 
+  22. The Scottish Environment Protection Agency. 
+  23. The United Kingdom Atomic Energy Authority Constabulary. 
+  24. A Universal Service Provider within the meaning of the Postal
+      Services Act 2000
+
+-----End of original message -----
+
+-- 
+richard                                              Richard Clayton
+
+Are you a Friend of FIPR yet?       http://www.fipr.org/friends.html
+
+
+*** END PGP VERIFIED MESSAGE ***

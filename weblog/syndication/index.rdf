@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="http://www.stand.org.uk/">
+<title>Stand</title>
+<link>http://www.stand.org.uk/</link>
+<description>The Stand weblog.</description>
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/08/21/000243.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/07/19/000226.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/25/000205.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/19/000199.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/18/000198.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/17/000197.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/16/000196.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/15/000195.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/13/000194.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/10/000193.php" />
+
+<rdf:li rdf:resource="http://www.stand.org.uk/weblog/archive/2002/06/10/000190.php" />
+</rdf:Seq>
+</items>
+
+</channel>
+
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/08/21/000243.php">
+<title>EUCD in the UK</title>
+<description>What will copyright look like in the 21st century? Many people have many different ideas - it's all very much...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/08/21/000243.php</link>
+<dc:subject>Intellectual Property</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-08-21T13:22:42+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/07/19/000226.php">
+<title>This Space Unintentionally Left Blank</title>
+<description>Sorry about the lack of updates - and, indeed, the lack of anything on this front page for the last...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/07/19/000226.php</link>
+<dc:subject>Administrivia</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-07-19T10:49:20+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/25/000205.php">
+<title>So who *does* have access to your Web logs?</title>
+<description>There's still one question left hanging from the recent RIP Standing Order palaver. At the height of the debate, Home...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/25/000205.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-25T03:06:46+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/19/000199.php">
+<title>RIP Order: Sometimes, you win.</title>
+<description> As most of you will already have heard, the government has backed down from the RIP s22 Order that...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/19/000199.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-19T00:15:39+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/18/000198.php">
+<title>Government admits 'we got it wrong'</title>
+<description>The Home Secretary, David Blunkett, has admitted the government made a mistake and and the Statutory Instrument has been postponed...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/18/000198.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>phil</dc:creator>
+<dc:date>2002-06-18T17:41:43+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/17/000197.php">
+<title>Debate Postponed To July 1st!</title>
+<description>The RIP Statutory Instrument has been postponed to July 1st. Rumours indicate this will give time for the Home Secretary...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/17/000197.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-17T18:09:25+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/16/000196.php">
+<title>Statutory Instrument Update</title>
+<description>Thanks for everyone who has already contacted their MP. If your Member of Parliament has written back to say that...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/16/000196.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-16T22:53:25+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/15/000195.php">
+<title>Banner Ads</title>
+<description>No campaign would be complete without its banner ad. Here's ours, courtesy of Ian Vince. Just cut and paste the...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/15/000195.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-15T22:06:53+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/13/000194.php">
+<title>The Blunt Instrument Postponed</title>
+<description>First round to us: after protests by MPs, the Government has postponed debate on RIPA Statutory Instrument (full details here)....</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/13/000194.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-13T23:49:18+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/10/000193.php">
+<title>Post Office To Steam Open Your History File</title>
+<description>One of the more extreme powers the Regulation of Investigatory Powers Act (RIPA) handed out two years ago let government...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/10/000193.php</link>
+<dc:subject>Privacy</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-10T15:34:22+00:00</dc:date>
+</item>
+
+<item rdf:about="http://www.stand.org.uk/weblog/archive/2002/06/10/000190.php">
+<title>Is this thing on?</title>
+<description>If you're reading this, you're either Brewster Kahle, or someone who was there for our final speech at XCOM 2002,...</description>
+<link>http://www.stand.org.uk/weblog/archive/2002/06/10/000190.php</link>
+<dc:subject>Administrivia</dc:subject>
+<dc:creator>danny</dc:creator>
+<dc:date>2002-06-10T08:45:06+00:00</dc:date>
+</item>
+
+
+</rdf:RDF>

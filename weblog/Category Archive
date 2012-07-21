@@ -1,0 +1,17 @@
+<?php
+
+<$MTInclude module="Init"$>
+
+$this_page = "archive_category_" . strtolower("<$MTArchiveTitle$>");
+
+$HTML->page_start();
+
+?>
+
+<$MTInclude module="Entries"$>
+
+<?php
+
+$HTML->page_end();
+
+?>

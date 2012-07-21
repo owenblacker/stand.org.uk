@@ -1,0 +1,1 @@
+include ("/data2/vhost/www.stand.org.uk/docs/weblog/includes/init.php");

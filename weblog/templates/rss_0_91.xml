@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<rss version="0.91">
+  <channel>
+    <title><$MTBlogName$></title>
+    <link><$MTBlogURL$></link>
+    <description><$MTBlogDescription$></description>
+    <language>en-us</language>
+<MTEntries lastn="15">
+    <item>
+      <title><$MTEntryTitle encode_html="1"$></title>
+      <description><$MTEntryExcerpt encode_html="1"$></description>
+      <link><$MTEntryLink$></link>
+    </item>
+</MTEntries>
+  </channel>
+</rss>

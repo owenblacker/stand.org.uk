@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns="http://purl.org/rss/1.0/">
+
+<channel rdf:about="<$MTBlogURL$>">
+<title><$MTBlogName$></title>
+<link><$MTBlogURL$></link>
+<description><$MTBlogDescription$></description>
+
+<items>
+<rdf:Seq><MTEntries lastn="15">
+<rdf:li rdf:resource="<$MTEntryLink$>" />
+</MTEntries></rdf:Seq>
+</items>
+
+</channel>
+
+<MTEntries lastn="15">
+<item rdf:about="<$MTEntryLink$>">
+<title><$MTEntryTitle encode_html="1"$></title>
+<description><$MTEntryExcerpt encode_html="1"$></description>
+<link><$MTEntryLink$></link>
+<dc:subject><$MTEntryCategory encode_html="1"$></dc:subject>
+<dc:creator><$MTEntryAuthor encode_html="1"$></dc:creator>
+<dc:date><$MTEntryDate format="%Y-%m-%dT%H:%M:%S"$><$MTBlogTimezone$></dc:date>
+</item>
+</MTEntries>
+
+</rdf:RDF>
