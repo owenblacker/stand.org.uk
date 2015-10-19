@@ -1,0 +1,1033 @@
+<HTML>
+<HEAD>
+<TITLE>A Guide to RIP v1.0</TITLE>
+<STYLE>
+<!--
+BODY { margin-left: 3em; margin-right: 3em;}
+H2, H3, H4, H5, H6 { color: navy ; font-family: "Arial", "Helvetica",
+sans-serif }
+BLOCKQUOTE { background: #F0F0F0 ; background-color: #F0F0F0; padding-top: 1ex; padding-bottom: 1ex; padding-left: 1em; padding-right: 1em; }
+BLOCKQUOTE B { font-size: 150% ; }
+U { background-color : yellow }
+H1 { color: maroon ; text-align: center }
+H4 { font-variant: small-caps }
+P { font-family: "Times", "times", "Garamond", serif }
+DL { font-family: "Times", "times", "Garamond", serif; font-size: 80% ; margin-left: 3em ; margin-right: 2em }
+DT { font-family: "Arial", "Helvetica", sans-serif; }
+DD { margin-right: 3em }
+CENTER { font-variant: small-caps }
+.in { margin-left: 3em ; margin-right: 2em }
+--->
+</STYLE>
+
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000EE" VLINK="551A8B" ALINK="#AA0000">
+ 
+<H1>STAND's Guide to the RIP v1.0</H1>
+<CENTER><SMALL>Last updated: 2000-03-02</SMALL></CENTER>
+<CENTER>
+<SMALL>
+|| <A HREF="#isps">Wiretapping&nbsp;for&nbsp;ISPs</A> || <A HREF="#blackbox">Interception&nbsp;Methods</A> || <A HREF="#certifs">Mass&nbsp;Surveillance</A> ||<BR>
+|| <A HREF="#secrecy">Permanent&nbsp;Secrecy</A> || <A HREF="#traffic">Traffic&nbsp;Data</A> || <A HREF="#keys">Government&nbsp;Access&nbsp;to&nbsp;Keys</A> ||
+
+</SMALL>
+
+<HR WIDTH="50%">
+<A HREF="#intro">intro</A> <A HREF="#summary">summary</A> <A
+HREF="#analysis">analysis</A> <A HREF="#amendments">amendments</A>  <A HREF="#whatnow">what you can
+do</A> <A HREF="#changelog">changelog</A> <BR>
+<BR>
+</CENTER>
+<BR>
+<A NAME="intro">
+<CENTER><B>The Regulation of Investigatory Powers Bill, 2000</B></CENTER></A>
+<BLOCKQUOTE>
+<SMALL>
+<B>A</B>&nbsp;BILL TO: Make provision for and about the interception of, communications, the
+acquisition and disclosure of data relating to communications, the carrying out
+of surveillance, the use of covert human intelligence sources and the
+acquisition of the means by which electronic data protected by encryption or
+passwords may be decrypted or accessed; to provide for the establishment of a
+tribunal with jurisdiction in relation to those matters, to entries on and
+interferences with property or with wireless telegraphy and to the carrying
+out of their functions by the Security Service, the Secret Intelligence
+Service and the Government Communications Headquarters; and for connected
+purposes.
+</SMALL>
+</BLOCKQUOTE>
+
+<P>Well, <I>that</I> sounds innocent enough.
+
+<P>This isn't a complete guide to RIP, or a complete guide to
+the problems with RIP. What we're listing here are the same issues that
+we've pointed up with previous legislation: proposals that sound perfectly
+reasonable on first consideration, but which, in the light of modern
+technology, turn out to be ridiculous, unenforceable, insidious or all
+three.</P>
+
+<P>We realise that some of the points we're making will seem obvious to many
+of our readers. In our defence, we'll point out that they're can't have been
+obvious to our politicians, otherwise they would never have allowed them to
+reach this stage. There follows a summary (and more detailed explanation) of
+the bugs we've found in the Bill so far. If you have the time to plough
+through the bill yourself, we'd love to hear more. As a guide, you might like
+to check the following Websites, which contain other objections:
+<P>
+<DL>
+<DT><A HREF="http://www.fipr.org/rip/">The Foundation for Information Policy Research</A>
+<DD>FIPR's monitoring of the progress of the Bill, together with their own
+objections.
+<DT><A HREF="http://www.liberty-human-rights.org.uk/mlobby2h.html">Liberty</A>
+<DD>The civil rights pressure group has been taking a closer look at RIP's impact on citizens rights - particularly with Part
+II, which covers covert human intelligence, which we don't discuss here.
+<DT><A HREF="http://www.cs.man.ac.uk/~chl/scenarios.html">Dr Lindsey's RIP Scenarios</A>
+<DD>An excellent collection of preposterous situations that the Bill could
+create, together with amendments to fix them.
+
+</DL>
+
+
+<P>Feel free to use this guide when drafting your letter to your MP. If you do,
+you may freely quote our text. But do try and put your concerns in your own words:
+we're not interested in drown MPs in identical spam faxes, but express the genuine
+concerns of individual STAND members.
+
+<P>In the case of some of our objections, we've included proposed amendments that
+may go some way to fixing the problem. The bill is already at the stage where the only possibility of change
+comes through accurately drafted amendments. If you have a legal background,
+we'd greatly appreciate <A HREF="#whatnow">some assistance in drafting
+amendments</A> for our objections. If your MP expresses an interest in
+assisting with fixing RIP, he or she should be pointed to these proposals.</P>
+
+<HR>
+
+<A NAME="summary"><H2>Summary</H2></A>
+
+<A HREF="#isps"><H3>ISPs as wiretappers</H3></A>
+<P>ISPs are now classified as "public telecommunication systems". As are mobile
+telephone providers, Net gateways, newservers, and, potentially, operators of Web
+applications like Hotmail. This provides a new set of burdens on even the smallest
+ISP, and may introduce a new level of bureaucracy and liability for anyone
+seeking to offer any form of Internet service. Additionally, employees of
+these companies are compelled to keep any surveillance they conduct on their
+customers secret in perpetuity. We believe this to be a dangerous extension of
+obligations on British Net citizens, with no corresponding checks or balances
+on law enforcement.<P>
+
+<A HREF="#blackbox"><H3>Interception Methods</H3></A>
+<P>Additionally, the Home
+Secretary has reserved the right to demand the placing of specific devices to
+monitor ISP traffic with little deliberation, and no guarantee that the
+nature of this monitoring will ever be publicised. We'd like to see such
+impositions made public.<P>
+
+<A HREF="#certifs"><H3>Mass Surveillance</H3></A>
+<P>The bill clarifies the requirements for an interception warrant, but also
+provides for Certificates, which are general permissions granted
+by the Home Secretary in a set of situations that don't make sense on the
+global Internet. In particular, the security services can now attempt to
+gather information on all communications that travel across an international
+boundary, without limit. We believe this affects everyone who uses the Net, to
+an extent unwarranted by the requirements of law enforcement.<P>
+
+<A HREF="#secrecy"><H3>Permanent Secrecy</H3></A>
+<P>Surveillance of communications, as before, is explicitly excluded from being
+used in a court of law. While this ostensibly provides continuing privacy for
+your e-mails (they won't be quoted in a court case), it also means that if
+your communications are tapped, you will never know.<P>
+
+<A HREF="#traffic"><H3>Traffic Data</H3></A>
+<P>A wide group of government authorities are now allowed to collect
+communications data - that's to say, everything about your Net sessions
+*apart* from the contents of your messages. So, for instance, the Web sites
+you visit or the full list of who you have contacted may be collected by
+anyone from the local police to the security services, with very little
+supervision. We think that collecting mass traffic data is effectively
+watching your every movement online, and should have the same safeguards as
+watching your home.<P>
+
+<A HREF="#keys"><H3>Government Access to Keys</H3></A>
+<P>The government can still demand you hand over keys or plaintext, and can still
+potentially gaol computer users for being unable to unlock their own files.
+This tipping-off offence provides serious criminals with a
+get-out-of-jail-quick escape, while still effectively criminalising the
+widespread use of encryption by making the act of losing keys or forgetting
+passwords a criminal offence.<P>
+
+<A HREF="#general"><H3>General Notes</H3></A>
+<P>Some miscellany from the Bill which we couldn't include in the above.<P>
+<HR>
+<A NAME="analysis"><H2>Analysis</H2></A>
+
+<A NAME="isps"><H3>ISPs as wiretappers</H3></A>
+<H4>2.(1) INTERNET SERVICE PROVIDERS - or, we're all postmen now</H4>
+<SMALL>
+<BLOCKQUOTE>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#2" target="bill">2. (1)</A></B>&nbsp;In this Act-<BR>
+"public telecommunications service" means any     
+telecommunications service which is offered       
+or provided to, or to a substantial section       
+of, the public in any one or more parts of        
+the United Kingdom;<BR>
+"public telecommunication system" means any       
+such parts of a telecommunication system by       
+means of which any public telecommunications      
+service is provided as are located in the         
+United Kingdom;<BR>                                   
+"telecommunications service" means any    
+service that consists in the provision of         
+access to, and of facilities for making use       
+of, any telecommunication system (whether or      
+not one provided by the person providing the      
+service); and<BR>
+"telecommunication system" means <U>any system       
+(including the apparatus comprised in it)         
+which exists (whether wholly or partly in the     
+United Kingdom or elsewhere) for the purpose      
+of facilitating the transmission of               
+communications by any means involving the use     
+of electrical or electro-magnetic energy.</U>
+</BLOCKQUOTE>
+</SMALL>
+
+<P>In other words, you're no longer using an ISP to connect to the Net. You're
+using the ISP's public telecommunication system. And you're not using Hotmail,
+or Hushmail, or Funmail, you're using their public telecommunication
+service to read your mail. And the same, we imagine goes for public news
+servers, WAP gateways, or - depending on how the judges call it, a Web hosting
+company or colocation centre. And even if this definition is defined more
+narrowly than our reading of the Bill, Section 11.(4) makes its requirements 
+binding on:
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#11" target="bill">11. (4)</A></B>&nbsp;<BR>
+<DIV CLASS="in">
+(a) a person who provides a postal service,<BR>
+(b) a person who provides a public 
+telecommunications service, or <BR>
+(c) a person not falling within paragraph 
+b) <U>who has control of the whole or any
+part of a telecommunication system located
+wholly or partly in the United Kingdom, </U>
+</DIV>
+</BLOCKQUOTE>
+</SMALL>
+<P>Which, frankly, could mean anyone with a phone.
+
+<P>What does the Bill require of these people? According to Section 11. (4),
+employees at companies offering a public telecommunications service (or a bloke
+with a phone) are now obliged to obey surveillance warrants, or face a
+maximum of two years in jail. According to Section 18. (2), employees also face
+five years imprisonment for revealing the contents, details or even the
+<I>existence</I> of a surveillance warrant. 
+
+<P>There is no time limit on this imposition: nor is there a "whistle-blowing"
+clause. 
+
+<P>Suppose, for instance, you are Jack Futurestraw. As a prospective minister in
+the cabinet of 2021, you want to pursue a case against the Blair government for
+monitoring your youthful activities as a member of the Young Old Labourites
+pressure group back in 2001. 
+
+<P>It would be a criminal offence, twenty years on,
+for anyone to either inform you that you were monitored, or appear as a
+witness at the trial. 
+
+<P>The only get-out clause for this secrecy is in the case where an ISP chooses
+to prosecute the government, on its own behalf. Given that the major rights
+being infringed are the subject of the warrant, not the ISP, this is unlikely
+to occur (and given the criminal liability of the company before the case is
+cleared, dangerous for any profit-making business to attempt).
+
+<H4>Our objections</H4>
+<P>This widens the number of people capable of being prosecuted for refusing to
+serve a warrant considerably. One of the features of the Net is that
+potentially, anyone can operate a "public telecommunications service" online. By widening the definition, the Bill is placing a huge liability on British companies to provide interception capabilities, which foreign companies do not have to comply with. We see great potential economic harm here.
+
+<P>There's a subtler point here, too. Fast connectivity and server-based services
+now mean that increasingly facilities that would hitherto been kept "on site"
+are being will be moved off to remote locations, connected by a virtual private
+network across the public Internet. For companies, this means that private
+communications between individuals at a business (which would previously have
+been kept within an office network) might be sent across the Net to
+telecommuters. Obtaining this data would traditionally require a warrant,
+served on the individuals. Post-RIP, these companies may be monitored without
+their knowledge in order to "fish" for convictions, or monitor deals "in the
+interests of the economic well-being of the United Kingdom"<SUP><A HREF="#note1">[1]</A></SUP>.
+
+<P>Individuals, too, will suffer from this enlargement of the state's ability
+to pry. If the government wants access to the data on your hard drive, they'll
+have to inform you of their wishes with a warrant served on your doorstep. If,
+though, they want access to your Mac's iDisk (a service provided by Apple which
+consists of a online storage facility for temporary files), you will remain
+ignorant of their actions.  Forever.
+
+<P>The secrecy of the order makes sense during the period of interception, but
+we believe there has to be a statute of limitations on such restrictions.
+Otherwise, the extension of rights to require interception capabilities from
+all service providers holds the potential for a dangerous enlargement of state
+powers.
+
+<H4>We'd like</H4>
+<P>At the very least, a clarification that "telecommunication services" involve
+communication between individuals, rather than offsite systems for the use of
+one person. And a clarification, too, of what obligations the Home Secretary
+considers "reasonable" to impose on service providers. Currently, (see <A
+HREF="#blackbox">Interception Methods</A>), these requirements are left to
+secondary legislation.
+
+<P>Some mechanism to allow individuals to be aware of interception warrants, at
+sufficient time subsequent to the action of the warrant that this publicity
+doesn't restrict the action of the authorities in pursuing a prosecution. (See the notes under <A HREF="#secrecy">permanent secrecy</A> in this document.)
+
+<P>And we don't see why anyone with a phone should get two years for refusing to
+tap it themselves.</P>
+<HR>
+
+<A NAME="certifs"><H3>Mass Surveillance</H3></A>
+<H4>See 8.(3) CERTIFICATES - or the outer "or"</H4>
+
+<P>One of STAND's recurring worries is that each introduction of new powers for
+interception creates a greater opportunity for mass surveillance. This was one of
+our major objections to the government's previous key escrow proposals. In that
+case, placing copies of many user's private decryption keys in a central
+location would have made it much easier for determined groups to collect
+intelligence en masse. One of the downsides of the unsecured Internet we use today is that, without sufficient safeguards, it makes it as easy to gather information on the public as a whole, as it does individuals (see also <A HREF="#traffic">Traffic Data</A>). Part of the intent of any bill to regulate the powers of
+the security services should be to prevent this from ever happening.
+
+<P>RIP seems to legislate against this possibility. Here's the clause:
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#8" target="bill">8. (1)</A></B>&nbsp;An interception warrant must name or describe either-<BR>
+<DIV CLASS="in"> 
+(a) one person as the interception subject; or<BR>
+(b) a single set of premises as the 
+premises in relation to which the 
+interception to which the warrant relates 
+is to take place.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+
+<P>Great. Unfortunately, this subsection is wrapped in a giant OR clause. Warrants are have names on them, UNLESS:
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#8" target="bill">8. (3)</A></B>&nbsp;Subsections (1) and (2) shall not apply to an interception
+warrant if-<BR>
+<DIV CLASS="in">(a) the description of communications to which
+the warrant relates confines the conduct authorised or required by the           
+warrant to conduct falling within               
+subsection (4); and<BR>
+(b) at the time of the issue of the             
+warrant, a certificate applicable to the        
+warrant has been issued by the Secretary of     
+State certifying-<BR>
+<DIV CLASS="in">
+(i) the descriptions of intercepted          
+material the examination of which he         
+considers necessary; and<BR>
+(ii) that he considers the examination       
+of material of those descriptions            
+necessary as mentioned in section            
+3. (a), (b) or (c).<BR>
+</DIV>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+
+<P>Hello? What? This means that as long as the Home Secretary signs a certificate saying he (or she) is <I>sure</I> this is a matter of national security<SUP><A HREF="#note1">[1]</A></SUP>, the authorities can monitor who they want, as long as:
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#8" target="bill">8. (4)</A></B>&nbsp;Conduct falls within this subsection      
+if it consists in-<BR>
+<DIV CLASS="in">
+(a) the interception of <U>external                
+communications</U> in the course of their           
+transmission by means of a                      
+telecommunication system;
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+
+<P>"External communications" means a message sent or received from outside the UK.
+In other words, the Security Services have a mandate to monitor all incoming and outgoing international traffic, without regard to who it's from or to, merely under the control of the a general permission from the Home Secretary.
+
+<H4>Our objections</H4>
+<P>Now, let's consider this blanket permission in the light of the Internet.
+How much of your everyday Net communications fall into this category? Do you
+access your mail via Yahoo, or Hotmail, or Netscape? Do you use ICQ, AIM or
+Napster? Do you subscribe to mailing lists, hosted on US machines? Do you buy
+shares online at Charles Schwab, or E*Trade? Do you post to USENET? Do you read
+USENET via DejaNews? Do you auction your goods on E-Bay? Do you use Compuserve?
+Do you use AOL? Are you, or your family, ever knowingly looked at an foreign
+adult site? And you absolutely sure that your ISP never routes your traffic via
+Amsterdam, or New York as can happen when internal routes are congested?
+
+<P>If so, congratulations. The Home Secretary has just granted the security
+services and police permission to monitor you  - with almost no legal
+oversight.
+
+<P>After such strenuous efforts, aren't we getting paranoid? Why
+would they want to monitor you, anyway?
+
+<P>The simple answer is: they don't have to. All of the Net's international traffic passes through a handful of points. There, the security services (or the police, or a fistful of other authorities<SUP><A HREF="#note2">[2]</A></SUP>) can tap <I>everyone</I>. It's relatively easy to trawl through this, conveniently text-based, communications, monitoring for suspicious tidbits.
+
+<P>Actually, it doesn't even have to suspicious in a criminal sense. Perhaps
+it's commercially sensitive. interesting. If you're in business, you might like to
+consider just how many of your deals with foreign companies may be construed
+to effect "the economic well-being of the United Kingdom" - one of the
+sufficient reasons for imposing a general tap order<SUP><A
+HREF="#note1">[1]</A></SUP>.
+
+<P>The structure of the interception warrant was designed to prevent mass
+abuse of exactly this kind. On the Internet, that "external communications"
+let-out renders this legal safeguard meaningless.
+
+<H4>We'd like</H4>
+
+<P>This has to go. In a globalized economy, it makes no sense to treat
+communications with overseas companies differently from talking to a partner in the
+next county. If the government wishes to tap international traffic, let it
+use the same principles that RIP requires of monitoring internal
+communications. The security services have to have specific warrants to target
+individuals or locations. There can be no excuse for the mass surveillance of British citizens' everyday lives, no matter how distant their colleagues.
+<HR>
+<A NAME="blackbox"><H3>Interception Methods</H3></A>
+<H4>See 12.(1) INTERCEPTION CAPABILITIES - or the little black box.</H4>
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#12" target="bill">12. (1)</A></B>&nbsp; The Secretary of State may by       
+order provide for the imposition by him on  persons who-<BR>
+<DIV CLASS="in">
+(a) are providing public postal services or     
+public telecommunications services, or<BR>
+(b) are proposing to do so,<BR>
+</DIV>
+of such obligations as it appears to him          
+reasonable to impose for the purpose of           
+securing that it is and remains practicable       
+for requirements to provide assistance in         
+relation to interception warrants to be           
+imposed and complied with. 
+</SMALL>
+</BLOCKQUOTE>
+
+<P>ISPs, do not as a rule, monitor their own users. Section 12. (1) will oblige
+them to invent the technology to do so, and build it into their equipment. For this act, the Home Secretary has gracefully agreed to reimburse them via a government grant.
+
+<P>The current Bill makes no specification as to the what this equipment will consist of. 
+
+<H4>Our objections</H4>
+
+<P>It's not the cost we object to; it's the implicit weakening of security. Remember that "public telecommunication services" covers any number of Internet services. All of these will be obliged to provide a back-door for government interception. The 
+security community on the Net has fought long and hard to remove any backdoors in <I>any</I> system, because of the high risk that such weaknesses will eventually be exploited for criminal ends. The Net is inherently, a very open, public and risk-laden environment. The only way to secure it is to work to making systems as invulnerable as possible.
+
+<P>It seems clear from the tone of the rest of the Bill that the design of
+these systems will remain closed, unless explicitly made public by act of law.
+As we'll see later, in <A HREF="#secrecy">Permanent Secrecy</A>, the security
+services prefer to work in the dark. Security from obscurity may be a useful
+heuristic in the cloak-and-dagger world of MI5, but it's next to useless on
+the Net. Time and time again, experience online has proven that the only truly
+secure system is one that is open to scrutiny from security experts worldwide.
+
+<P>This may sound like special pleading - or a request to deliberately weaken the government's surveillance capability. It's not. It's a practical truth, drawn from the thirty years of security lessons on the Net. If these instruments remain concealed, they <I>will</I> be cracked, or exploited for uses beyond their legal intent. As we've said, it's as easy to monitor everybody online than it is to monitor one person. In order for the technology of interception to not overstep its bounds, it has to be carefully constructed in full view of the security expertise of the Net.
+
+<P>This is perhaps the hardest point to make to the Security Services - who we
+can only address indirectly, since they refuse to make their own wishes clear
+except by intimating them in the drafting of the RIP. Their principal modus
+operandi - their secrecy - in this case can do nothing but harm their
+capabilities. By cutting themselves off from the collective experience of
+security experts worldwide, they risk making themselves obsolete.
+
+<H4>We'd like</H4>
+The Bill thoughtfully obliges the Home Secretary to consult with the experts in Section 12. (6):
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#12" target="bill">12. (6)</A></B>&nbsp;Before making an order under this         
+section the Secretary of State shall consult      
+with-                                             
+<DIV CLASS="in">                                        
+(a) such persons appearing to him to be         
+likely to be subject to the obligations for     
+which it provides,<BR>
+(b) such persons representing persons           
+falling within paragraph (a), and<BR>
+(c) such persons with statutory functions       
+in relation to persons falling within that      
+paragraph,<BR>
+</DIV>
+as he considers appropriate.   
+</SMALL>
+</BLOCKQUOTE>
+<P>We'd like these considerations to be made publicly available, online. Particularly as our reading of the bill indicates that almost anyone can be considered subject to the obligations of monitoring their own Net communications. If the Home Secretary wishes to consult, let him consult everyone. That's possible, and desirable, in an online world.
+
+<P>We rather suspect that this will be the hardest of our wishes to include in the Bill. Which is a shame, because it's definitely the one most determined to protecting the existing powers of the government.
+
+<HR>
+<A NAME="secrecy"><H3>Permanent Secrecy</H3></A>
+<H4>See 16. (1) EXCLUSION FROM LEGAL PROCEEDINGS - or our secrets are bigger than your secrets</H4>
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#16" target="bill">16. (1)</A></B>&nbsp; Subject to section 17, no           
+evidence shall be adduced, question asked,        
+assertion or disclosure made or other thing       
+done in, for the purposes of or in connection     
+with any legal proceedings which (in any          
+manner)-                                          
+<DIV CLASS="in">
+(a) discloses, in circumstances from which      
+its origin in anything falling within           
+subsection (2) may be inferred, any of the      
+contents of an intercepted communication or     
+any related communications data; or<BR>
+(b) tends (apart from any such disclosure)      
+to suggest that anything falling within         
+subsection (2) has or may have occurred or      
+be going to occur.<BR>
+</DIV> 
+</SMALL>
+</BLOCKQUOTE>
+
+
+<P>What does this mean? It means that surveillance data cannot be used in a
+court of law. It means that the existence of a surveillance warrant cannot be revealed in a court of law. It means that surveillance can only be used to gather circumstantial evidence that will point to a conviction and not be the basis of the conviction itself.
+
+<H4>Our objections</H4>
+
+<P>It also means, once again, that if you are the victim of an illegitimate surveillance warrant, you have <I>no way</I> of ascertaining its existence. If there is a leak, you will be unaware of it (after all, only the paranoid would blame a collapsed business deal on a leaked tap, right? The paranoid, and <A HREF="http://news.bbc.co.uk/hi/english/world/newsid_654000/654394.stm">the European Parliament</A>, that is.)
+
+<P>We don't have a problem with surveillance data being inadmissible as evidence. We do have a problem with the complete inability of the Bill drafters to tolerate the release of the existence of surveillance warrants in cases of misconduct (or innocence).
+
+<P>(You may like to compare this with the requirements on telecommunication service providers in our <A HREF="#isps">ISPs as wiretappers</A> section. There is simply no way anyone can discover that they have been tapped, no matter how long ago or how innocent they proved to be.)
+
+<H4>We'd like</H4>
+<P>Once again, we'd like a statute of limitations on the secrecy of surveillance warrants. At a certain point - perhaps as part of the Freedom of Information Act - it should be possible to discover whether you have, in the past, been the subject of surveillance.
+
+<P>Dedicated readers of the Bill may, at this point, bring up the Surveillance Commissioner and the Tribunal (described in Part IV of the Bill). The Tribunal <I>is</I> permitted to discover the existence of warrants. It can investigate, and issues a yearly report of its investigation. Is that not enough?
+
+<P>No. If it is impossible to discover whether you have been monitored, only the most determined citizen will call upon the Tribunal's powers. Also:
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#58" target="bill">58. (5)</A></B>&nbsp;Except where the Tribunal, having          
+regard to all the circumstances, are satisfied     
+that it is equitable to do so, they shall not      
+consider or determine any complaint made by        
+virtue of section 56(2)(b) if it is made more      
+than one year after the taking place of the        
+conduct to which it relates.                       
+</SMALL>
+</BLOCKQUOTE>
+
+<P>In other words, you have only a year to feel the effects of a leaked surveillance, or note the damage to your business, or finally determine that it is a illegally-executed surveillance that has led to your problems.
+
+<P>Once again, we suggest that these bizarre impositions on the public's right
+to know relates to the existing culture of the security services. There's
+certainly no practical reason why citizens should never discover that they
+were tapped.
+
+<HR>
+<A NAME="traffic"><H3>Traffic Data</H3></A>
+<H4>See 20. (1) COMMUNICATIONS DATA - or, stuck in traffic</H4>
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#20" target="bill">20. (1)</A></B>&nbsp;This Chapter applies to-            
+disclosure of                                                              
+communications data.                                                       
+<DIV CLASS="in">
+(a) any conduct in relation to a postal         
+service or telecommunication system for         
+obtaining communications data, other than       
+conduct consisting in the interception of       
+communications in the course of their 
+transmission by means of such a service or      
+system; and   <BR>                                  
+(b) the disclosure to any person of             
+communications data.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<P>Communications data is defined later:</P>
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#20" target="bill">20. (4)</A></B>&nbsp;In this Chapter "communications data"     
+                              means any of the following-                       
+<DIV CLASS="in">                                        
+(a) any address or other data comprised in      
+or attached to a communication (whether by      
+the sender or otherwise) for the purposes       
+of any postal service or telecommunication      
+system by means of which it is being or may     
+be transmitted;
+(b) any information which includes none of      
+the contents of a communication (apart from     
+any information falling within paragraph        
+(a)) and is about the use made by any           
+person-
+<DIV CLASS="in">
+(i) of any postal service or                 
+telecommunications service; or<BR>               
+(ii) in connection with the provision to     
+or use by any person of any                  
+telecommunications service, of any part
+of a telecommunication system;<BR>               
+</DIV>
+(c) any information not falling within          
+paragraph (a) or (b) that is held or            
+obtained, in relation to persons to whom he     
+provides the service, by a person providing     
+a postal service or telecommunications          
+service.  
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+
+<P>There has been concern for some time online about the gathering of what is known as <I>traffic data</I> by commercial Net companies. Traffic data can best be described as the writing on the envelope of a message, rather than the contents. It can be the list of phone numbers you have called in the last six months. Or a full list of Websites you have visited. Or the times you log on, and from where. Or who you e-mail, or what programs you've downloaded, or what newsgroups you read.
+
+<P>Companies like DoubleClick have got into trouble because while
+this data is relatively easy to obtain, and is extremely valuable. Using
+modern methods of data mining, it is possible to deduce a great deal about the
+actions of a person from their traffic data. Even anonymously collected lists
+of traffic can be matched to names over time. And as more and
+more commercial and personal activity moves onto the Net, the picture of who
+you are, what you like, and what you are doing, becomes clearer. The
+unscrutinised collation of traffic data has been compared to stalking. Fortunately, in this country, the Data Protection Act does a reasonable job of preventing corporations from abusing this power.
+
+<P>"Communications data", in this Bill, is traffic data. What oversight is placed on its collection by the government?
+
+<P>When can traffic data be obtained?
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#21" target="bill">21. (2)</A></B>&nbsp;
+(2) It is necessary on grounds falling        
+within this subsection to obtain                  
+communications data if it is necessary-           
+<DIV CLASS="in">
+(a) in the interests of national security;<BR>
+(b) for the purpose of preventing or            
+detecting crime or of preventing disorder;<BR>
+(c) in the interests of the economic            
+well-being of the United Kingdom;<BR>
+(d) in the interests of public safety;<BR>
+(e) for the purpose of protecting public        
+health;<BR>
+(f) for the purpose of assessing or             
+collecting any tax, duty, levy or other         
+imposition, contribution or charge payable      
+to a government department;<BR>
+(g) for the purpose, in an emergency, of        
+preventing death or injury or any damage to     
+a person's physical or mental health, or of     
+mitigating any injury or damage to a            
+person's physical or mental health; or<BR>
+(h) for any purpose (not falling within         
+paragraphs (a) to (g)) which is specified       
+for the purposes of this subsection by an       
+order made by the Secretary of State.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<P>In other words, almost any reason, or any suspected crime, is sufficient.
+
+<P>Who can obtain authorisation for obtaining traffic data? Any member of the following:</P>
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#24" target="bill">24. (1)</A></B>&nbsp;In this Chapter- ...
+"relevant public authority" means (subject      
+to subsection (4)) any of the following-        
+<DIV CLASS="in">
+(a) a police force;<BR>
+(b) the National Criminal Intelligence  
+Service;<BR>
+(c) the National Crime Squad;<BR>
+(d) the Commissioners of Customs and         
+Excise and their department;<BR>
+(e) any of the intelligence services;<BR>
+(f) any such public authority not            
+falling within paragraphs (a) to (e) as      
+may be specified for the purposes of         
+this subsection by an order made by the      
+Secretary of State.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<P>Any government department, or any police officer, can require this
+information.
+
+<P>There is no warrant system for traffic data. Anyone of a high enough rank (the rank being decided by the Home Secretary) may obtain this data, with little oversight.
+<H4>Our objections</H4>
+<P>According to the new bill, any police officer or member of the security
+service, may obtain details of which Websites you visited, who you have been
+e-mailing, which newsgroups you visit, in the interests of detecting
+crime. Not <I>serious</I> crime, mind you. Unlike surveillance warrants,
+communications data can be for any detecting <I>any</I> crime.
+
+<P>We can understand why the present government believes that traffic data should have weaker requirements, and a wider designation of authorised personnel. They're still thinking that it relates exclusively to obtaining a list of telephone numbers. On the Net, this isn't the case. There's a vast amount of information obtainable from the Security Services (or a sufficiently technologically adroit law enforcement body). Gross invasions of privacy await, and the power in traffic data will only grow as the Net becomes more pervasive.
+
+<H4>We'd like</H4>
+<P>We'd like the same authorising structure as is in place for covert human intelligence (Part II of the Bill, which we're not examining here, but covers stake-outs and spying). Collecting traffic data <I>is</I> like stalking - and needs the same safeguards surrounding its use by government bodies.
+<HR>
+<A NAME="keys"><H3>Government Access to Keys</H3></A>
+<H4>See Part III INVESTIGATION OF ELECTRONIC DATA PROTECTED BY ENCRYPTION - or, The Return
+of Dear Jack</H4>
+
+<P>STAND's old favourite is ... back! 
+
+<P>What grounds are necessary to demand a key?
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#46" target="bill">46. (2)</A></B>&nbsp;If any person with the appropriate permission under Schedule 1 believes, on reasonable grounds-<BR>
+<DIV CLASS="in">
+(a) that a key to the protected information     
+is in the possession of any person,<BR>
+(b) that the imposition of a requirement to     
+ disclose the key is-                            
+<DIV CLASS="in">
+(i) necessary on grounds falling within     
+subsection (3), or<BR>
+(ii) likely to be of value for purposes      
+connected with <U>the exercise or               
+performance by any public authority of       
+any statutory power or statutory duty,</U><BR>
+</DIV>
+(c) that the imposition of such a               
+requirement is proportionate to what is         
+sought to be achieved by its imposition,        
+and<BR>
+(d) that the key cannot reasonably be           
+obtained by the person with the appropriate     
+permission without the giving of a notice       
+under this section,
+the person with that permission may, by           
+notice to the person whom he believes to have     
+possession of the key, require the disclosure     
+of the key.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#46" target="bill">46. (3)</A></B>&nbsp; A requirement to disclose a key is  
+necessary on grounds falling within this          
+subsection if it is necessary-                    
+<DIV CLASS="in">                                        
+(a) in the interests of national security;      
+(b) for the purpose of preventing or            
+detecting crime; or                             
+(c) in the interests of the economic            
+well-being of the United Kingdom.               
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<P>In other words, anyone under suspicion of <I>any crime</I>, or in conflict with <I>any public authority</I> is obliged to hand over his or her private documents.
+
+<P>What happens if you refuse to hand over your key?
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#49" target="bill">49. (1)</A></B>&nbsp;A person is guilty of an offence if-<BR>
+<DIV CLASS="in">
+(a) he fails to comply, in accordance with      
+any section 46 notice, with any requirement
+of that notice to disclose a key to             
+protected information; and<BR>
+(b) he is a person who has or has had           
+possession of the key.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#49" target="bill">49. (5)</A></B>&nbsp;A person guilty of an offence under       
+this section shall be liable-<BR>
+<DIV CLASS="in">
+(a) on conviction on indictment, to             
+imprisonment for a term not exceeding two       
+years or to a fine, or to both;<BR>
+(b) on summary conviction, to imprisonment      
+for a term not exceeding six months or to a     
+fine not exceeding the statutory maximum,       
+or to both.<BR> 
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+
+<H4>Our objections</H4>
+<P>The government has appeared to learn nothing from its previous attempts to
+pass these controls. We've gone into some detail on these issues before, so
+we'll merely summarise the problems here.
+<P>Time and time again, we've tried to get the government to understand that
+strong encryption is <B>vital</B> to preserve business and personal secrets
+online. If someone passes your secret key to any third party, all of your data
+under that key is compromised. When a key is copied, it is impossible to
+remain confident that it will not pass to others. The government places no
+safeguards over the security of a key, once it has been passed on.
+<P>Handing over a key should <I>not</I> be a trivial exercise. The potential
+liability to companies and individuals of losing control of their private keys
+is incalculable. Allowing any statutory body to demand these keys trivialises
+the importance of encryption in the future of the Net. It is comparable to
+allowing any government body access to the most private areas of citizens'
+life.
+<P>The government is in the habit of indicating that this bill is necessary to
+defend against monstrous criminal acts. They claim that without it, drug
+barons, child pornographers and terrorists will use encryption to evade paying
+for their crimes. Usefully, this Bill <I>guarantees</I> that they will. If you
+encrypt all your data, and refuse to hand over the key, you can be punished to
+a maximum of two years (or six months). This makes it worthwhile for criminals
+to pursue this aim, while actively dissuading regular citizens from taking the
+risk that they will be imprisoned for being unable to decrypt their own data.
+As the old Net proverb has it: if you outlaw encryption, only outlaws will use
+encryption. Additionally, the defence of "forgetting your passphrase" will
+quickly become discredited: making it even more difficult for innocent
+citizens to use this as a legitimate defence.
+<P>As we've pointed out before, the law also reverses the burden of proof.
+While the new Bill introduces some safeguards (mainly to avoid the bug that
+allowed us to <A HREF="http://www.stand.org.uk/dearjack/photostory.php3">stitch Jack Straw up</A> under the original
+proposals), there are still plenty of situations when innocent citizens can be
+forced to prove their innocence in court, rather than the other way around.
+For examples of how this might occur, see Dr Lindsey's <A
+HREF="http://www.cs.man.ac.uk/~chl/scenarios.html#scenario 16">lost or disused
+keys</A> scenario.
+<P>And, once again, the government has included a "tipping off" offence, which
+makes it impossible to discover whether a warrant has been served by the
+police, intelligence services, or customs and excise officers. This will have
+little effect on the criminal (most keys are held personally, requiring a
+warrant to be served on the criminal themselves). However, for a legitimate
+business who inadvertently find themselves under a decryption order (in order
+to decipher communications from a suspect), it effectively destroys the
+privacy of anyone in communication with them (again, see Dr Lindsey's <A
+HREF="http://www.cs.man.ac.uk/~chl/scenarios.html#scenario 11">Value of a
+compromised key</A> for an illustration of this problem.
+
+<P>There is no restriction on how long the key is kept by the
+authorities. Even the surveillance warrants have a sell-by clause.
+
+
+<H4>What we'd like</H4>
+<P>Well, frankly, we'd like this section torn up. No government places such a
+wide demand on access to keys. Even the technologically-advanced US admits
+that no such requirement is yet needed, judging by the use of encryption in
+crime. Successive governments since 1996 have attempted to obtain control of
+their own citizens private keys. In all that time, the authorities have
+declined to give concrete examples of when this power might actually have
+been required.
+
+<P>However, if the Bill is to become law, we'd like:
+<P>In recognition of the importance of preserving confidence in keys, the
+requirements made comparable with those required for an interception warrant.
+<P>A provision- by those attempting to obey the warrant - that a plaintext
+version of the communication will suffice (instead of the keys to decrypt it
+and other files). The government has yet to give us an example where plaintext
+would be unsuitable, and a key not, for the purposes of law enforcement.
+<P>Tightening up of the burden of proof, so that no scenario can occur where
+an innocent individual can be sent to prison for failing to prove a negative.
+<P>Time limits on the "tipping off" offence and length of time the key can be
+kept by the authorities, as well as stronger safeguards on preventing the key
+from passing into the wrong hands (currently, officials have a simple "duty"
+to prevent this. It should be a criminal offence to pass keys on.)
+<HR>
+<A NAME="general"><H3>General Notes</H3></A>
+<H4><A NAME="note1">[1] Under what circumstances can a surveillance warrant be served?</A></H4>
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#5" target="bill">5. (3)</A></B>  Subject to the following provisions of      
+this section, a warrant is necessary on grounds     
+falling within this subsection if it is             
+necessary-<BR>
+<DIV CLASS="in">
+(a) in the interests of national security;<BR>
+(b) for the purpose of preventing or              
+detecting serious crime;<BR>
+(c) for the purpose of safeguarding the           
+economic well-being of the United Kingdom; or<BR>
+(d) for the purpose, in circumstances 
+appearing to the Secretary of State to be         
+equivalent to those in which he would issue a     
+warrant by virtue of paragraph (b), of giving     
+effect to the provisions of any international     
+mutual assistance agreement.<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<P>Compare and contrast this with the demands required for obtaining <A HREF="#traffic">traffic data</A> and <A HREF="#keys">obtaining private encryption keys</A>.
+Both are considerably weaker.
+
+<H4><A NAME="note2">[2] Who can request a surveillance warrant?</A></H4>
+
+<P>Glad you asked.
+
+<BLOCKQUOTE>
+<SMALL>
+<B><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html#6" target="bill">6. (2)</A></B>&nbsp;Those persons are-<BR>
+<DIV CLASS="in">
+(a) the Director-General of the Security        
+Service;<BR>                                        
+(b) the Chief of the Secret Intelligence        
+Service;<BR>                                        
+(c) the Director of GCHQ;<BR>
+(d) the Director General of the National        
+Criminal Intelligence Service;<BR>
+(e) the Commissioner of Police of the           
+Metropolis;<BR>                                     
+(f) the Chief Constable of the Royal Ulster     
+Constabulary;<BR>                                   
+(g) the chief constable of any police force     
+maintained under or by virtue of section 1      
+of the Police (Scotland) Act 1967;<BR>
+(h) the Commissioners of Customs and            
+Excise;<BR>
+(i) a Permanent Under-Secretary of State in     
+the Ministry of Defence;<BR>
+(j) a person who, for the purposes of any       
+international mutual assistance agreement,
+is the competent authority of a country or      
+territory outside the United Kingdom;<BR>
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<P>Not forgetting:</P>
+<BLOCKQUOTE>
+<SMALL>
+<DIV CLASS="in">
+(k) any such other person as the Secretary      
+of State may by order designate for the         
+purposes of this subsection. 
+</DIV>
+</SMALL>
+</BLOCKQUOTE>
+<A NAME="amendments"><H2>Proposed Amendments</H2></A>
+<P>By the time you read this, the RIP will already be close to becoming law. It receives its Second Reading in the House on March 6th, and the government has already indicated that it considers it a "fast track" bill, with a minimum of oversight required. Ironically, the Home Office states this is to enact it in time for the European Convention on Human Rights, which the government plans to ratify on October 4th.
+
+<P>We don't want this Bill. If the government has any sense, it will react to
+the widespread concern for the effects of this draft, and abandon the process.
+
+<P>Failing that, only possibility of protecting the rights you will lose in its current drafting is to <I>lobby your MP</I> to include amendments that reflect your worries.
+<P>Here follows a summary of the amendments that we'd like to see included. They don't cover all our concerns. Unfortunately, we're not lawyers. <I>If you are</I>, we'd greatly drafts of these fixes. In particular, we'd like patches for:
+<UL>
+<LI>Clarification of "telecommunication services" and "telecommunication
+systems" to restrict this Bill to those who it should concern - companies
+providing basic telco services.
+<LI>A time limit on the secrecy of warrants, communications
+data notices, and key notices.
+<LI>Fixing the "communications data" (Pt I, Ch. II) section to comply with the
+requirements for Human Intelligence (Pt. II).
+</UL>
+<P>If you'd like to contribute an amendment, please mail us at <A HREF="mailto:stand@stand.org.uk">stand@stand.org.uk</A>
+<H3>Current Amendments</H3>
+<H4>Wiretapping for ISPS</H4>
+<P>Clarification of "telecommunications services" and "telecommunication
+systems" - <B>phrasing needed</B>
+<P>Clarification that interception demands should not include services whose
+intent is not to pass information to others - <B>phrasing needed</B>
+<H4>Mass Surveillance</H4>
+<P>Strike 8(3) and 8(4) from the Bill.
+<H4>Interception Methods</H4>
+<P>Committment to publish results of consultations with telcos - <B>phrasing
+needed</B>
+<H4>Permanent Secrecy</H4>
+<P>Strike 58(5) from the Bill. Or extend it to five years.
+<P>A time limit on the secrecy of warrants, communications data notices, and
+private key notices - <B>phrasing needed</B>
+<H4>Traffic Data</H4>
+<P>Fixing the "communications data" (Pt I, Ch. II) section to comply with the
+requirements for Human Intelligence (Pt. II). - <B>phrasing needed</B>
+<H4>Government Access to Keys</H4>
+<P>Strike 46(2)(b)(ii)
+<P>Fixing to comply with the requirements for an Interception Warrant (Pt I, Ch.
+II)
+<P>Plaintext, tightening the burden of proof, and other anomalies are covered
+by <A HREF="http://www.cs.man.ac.uk/~chl/scenarios.html">Dr Lindsey's proposed
+amendments</A>
+<P>Introduction of a offence to pass keys on - <B>phrasing needed</B>
+<HR>
+<A NAME="whatnow"><H2>What You Can Do</H2></A>
+<H3>You can do a lot.</H3>
+<H4>Read the Bill</H4>
+<P>We aren't lawyers. This document contains the obvious errors that we've spotted on our own inspection of the Bill. The very fact that we, as laymen, have spotted so many problems indicates to us that many more may lay in wait. It seems, to us, a rushed bill with many unforeseen ramifications. We're sure you can find your own bugs - and we'll be happy to update this document to help publicise them.
+
+<P>Some resources to help you:
+<DL>
+<DT><A HREF="http://www.publications.parliament.uk/pa/cm199900/cmbills/064/2000064.htm">HTML version of the RIP Bill at the HoC site (multiple pages)</A>
+<DT><A HREF="http://www.fipr.org/rip/ripbillarch/ripfull.html">Full version of the RIP Bill at the FIPR site (one page)</A>
+<DT><A HREF="http://www.fipr.org/rip/ripbillarch/ripbill.pdf">PDF version of the RIP Bill at the FIPR site</A>
+</DL>
+<H4>Contact your MP</H4>
+<P>Please take advantage of <A HREF="/web/20000815054215/http://www.stand.org.uk/">our fax service</A> to contact your MP. Please let
+them know that you're concerned, and highlight for them the problems you
+foresee. Feel free to quote from this document, but it's best if you use your
+own words. Bear in mind that many MPs are technological neophytes, and
+may not know how to access Web resources. (Although if you want to offer to
+teach them, that'd be great too.)
+<P>When your MP replies (and especially if they do not), contact them again.
+Keep in contact. One fax is enough to register your concern, but to truly
+inform our politicians, we need to keep explaining until they understand the
+issues.
+<H4>Write an amendment</H4>
+<P>Are you a lawyer? Would you like to help draft amendments to fix the bugs
+in the Bill. <A HREF="mailto:stand@stand.org.uk">Let us know</A>. You may find
+the House Of Commons guide to drafting amendments useful. But act quickly! We have
+<I>less than a week</I> from the second reading to place new amendments before
+the committee (March 18th, 2000).
+
+<H4>Tell your friends</H4>
+<P>Please pass on this information to your friends. Encourage them to contact
+their MP using STAND's fax engine. While the Bill has the potential to affect
+all Net users, be careful not to indiscriminately spam others. 
+
+<H4>Learn about encryption</H4>
+<H4>Contact your MP again</H4>
+<P>This is only the beginning of Bills, written by non-Net users, that can
+drastically effect your rights online and off. We need to educate our
+politicans now of the
+effect of their actions.
+
+<H4>Start your own site</H4>
+We'll be happy to link to other opinions on the Bill (pro and con). 
+<H4>Act now</H4>
+<P>Compared to previous government attempts, the RIP Bill has been introduced
+incredibly swiftly and with little oversight. It has a strong chance of being
+law by October 4th. You need to make your voice known now.
+<BLOCKQUOTE CITE="https://web.archive.org/web/20000815084243/http://www.cfoi.org.uk/labcmits.html">
+<SMALL>
+<B>"Government is too secretive. Too many decisions are
+taken behind closed doors without proper consultation
+with the public. Government then rushes new laws through
+Parliament and bad legislation is passed. People want to
+be better informed about what government is up to, and be
+consulted more."</B>
+</SMALL>
+</BLOCKQUOTE>
+<CENTER>
+-<CITE>Jack Straw, et al: New Politics, New Britain: Restoring Trust in the Way we are
+Governed</CITE>
+</CENTER>
+<P>After all, it's what Jack would want.
+<HR>
+<SMALL>
+<P>You are granted permission to reproduce and distribute this document at will, providing it remains complete and intact, including this notice. All rights reserved.
+<P>The current version of this document is available at: <A HREF="https://web.archive.org/web/20000815054215/http://www.stand.org.uk/ripnotes/">http://www.stand.org.uk/ripnotes/</A></SMALL>
+<HR>
+
+<A NAME="changelog"><H2>ChangeLog</H2></A>
+<PRE>
+        * v1.0 released online - STAND 2000-03-02
+        * incorporated Dr Lindsey's examples - dob 2000-03-01
+        * initial draft - dob 2000-02-29
+</PRE>
+
+</BODY>
+</HTML>
+<!--
+     FILE ARCHIVED ON 5:42:15 Aug 15, 2000 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:02:46 Oct 19, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
