@@ -14,7 +14,7 @@
 		
 
 </head>
-<body link="#006611" alink="#006611 vlink="#996633">
+<body link="#006611" alink="#006611" vlink="#996633">
 		
 <div id="top">
 	<div id="masthead">stand</div>
@@ -33,7 +33,7 @@
 	
 
 Stand.org.uk is a group of volunteers who 
-<A HREF="http://www.stand.org.uk/faq.php3">originally came together in
+<A HREF="http://www.stand.org.uk/faq.html">originally came together in
 	1998</A> in a vain attempt to fix the worst aspects of the
 	<A HREF="http://www.stand.org.uk/press.php3">Regulation of Investigatory Powers (RIP) Act</A>.
 	Backed up by a list
@@ -77,7 +77,7 @@ Stand.org.uk is a group of volunteers who
 	list. And if you'd like to help out, or have any suggestions, you can mail us directly at <a href="mailto:stand@stand.org.uk">stand@stand.org.uk</a>.
 	
 	<p>You can find the old STAND homepage <a
-	href="/index.20020610.php3">here</a>.</p> 
+	href="../../index.20020610.html">here</a>.</p> 
 	
 <P>
 <P>
@@ -90,6 +90,5 @@ Stand.org.uk is a group of volunteers who
 
 <!-- end page-body -->
 </div>
-<? include("id_tracker.php3"); ?>
 </body>
 </html>
