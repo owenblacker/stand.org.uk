@@ -1,0 +1,625 @@
+Scrambling for Safety 6
+
+There are links to some of the PowerPoint presentations on FIPR's site
+at http://www.fipr.org/sfs6.html
+
+I won't guarantee the accuracy of my notes, not least because my
+handwriting and hearing are both rather suspect.  Also, some of my
+notes are rather cursory, with little context to them.  Sorry, they
+were written as aides-memoires for a Consultation Response, not for
+the more general dissemination they might be about to get.  All
+"quotes" are likely to be paraphrased, not verbatim.
+
+Comments to Owen Blacker <owen@stand.org.uk>, Queries to the speakers
+themselves  :P
+
+:::::::::::::::::::
+ Table of contents
+:::::::::::::::::::
+
+[1] Introduction and background; Simon Davies, Privacy International
+[2] The current régime of data retention and access; Duncan Campbell
+[3] The consultation documents; Simon Watkin, Home Office
+[4] EU actions; Philippe Gérard, European Commission
+[5] Oversight landscape relating to Human Rights; Prof Douwe Korff
+[6] Q&A session with the above speakers
+    (Break)
+[7] Legality of retention; Dan Cooper, Covington & Burling
+[8] Technical and economic feasibility; Roland Perry, LINX
+[9] The European landscape; Tony Bunyan, Statewatch
+[a] Purposes of data retention; Richard Clayton, FIPR
+[b] Q&A session with the second set of speakers
+
+
+:::::::::::::::::::::::::::::::::::::
+ [1] Introduction and background
+ Simon Davies, Privacy International
+:::::::::::::::::::::::::::::::::::::
+
+There are two key issues here -- trust and legality.
+
+Extrapolating figures from APIG and elsewhere imply that 100m phone
+records are pulled every year.
+
+From a consumer PoV, this isn't a cost issue so, unlike the LINX and
+ISPA and so on, PI are less interested in that aspect.
+
+PI would argue that it is ~not~ a basis for legality that the intent to
+pursue serious crime (etc) should allow access to these data and
+metadata.  Dan Cooper's legal opinion, later, backs this up, in Simon
+Davies's opinion.
+
+Oversight!  The Interception Commissioner, despite his importance (and,
+to be fair, extenuating circumstances) cannot attend today.  [I didn't
+make any notes about it here, but I'm pretty sure it was here that he
+mentioned the correspondence he's been having with Sir Swinton Thomas:
+http://makeashorterlink.com/?U1FC21794 -- all very entertaining...]
+
+PI have just launched a campaign: "Know your data". See their website:
+http://makeashorterlink.com/?P21D62794 [I'm a little concerned at how
+this seems like a fun threat by way of costing telcos and ISPs quite a
+bit of dosh, which isn't really A Good Thing, imho.]
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+ [2] The current régime of data retention and access
+ Duncan Campbell (by video, as he couldn't make it)
+:::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+There has been an "exponential" increase in the use of surveillance
+[something illegible].  For every one cellphone, there are now over 100
+requests per annum for comms data. [That really is what I wrote].
+These are all under the DPA. because RIP powers are not yet extant.
+[Duncan was subsequently corrected by Simon Watkin, as these aren't
+"under the DPA", but rather under other legislation, see the
+consultation docs, and the CSPs balance requests against their DPA
+responsibilities.]
+
+Most Net-related access requests atm are seizures of PCs for
+kiddieporn.
+
+Some companies store cellsite data for seven years -- including BT
+Cellnet / O2
+
+Enquiries often also include credit card numbers used for PAYG topups
+and the IMEI numbers of phones connecting
+
+DPA régime [sic] is generally not bad, because the system is rigidly
+setup, with detailed forms and SPoCs [single points of contact, in the
+unlikely event any of you didn't already know the acronym].  Audit
+trails, transparency and accountability could be better.  Because
+lawyers are often unaware of the system, suspects don't always get all
+the information they should, as the defence doesn't know to ask for
+these metadata, for example.
+
+Voda and Orange keep data for 1 year or 6 months. T-Mobile destroy
+after 3 months.
+
+And estimated 150.000 to 200.000 requests per annum means that large
+depts are required and requests are often serviced automatically by
+Business Applications.
+
+"BT Link" has been operating since the mid-90s to send information on
+request.  Cell networks have similar systems.  The protocols used are
+often risible -- one [nameless] company uses a "secret" email address
+and, if the request is properly formatted, a response is generated
+automatically and sent to another "secret" email address; all in the
+clear.  This could, clearly, be a breach of the companies' duties of
+care under the DPA.
+
+Bugging is another area of explosive growth.  This growth is possible,
+in part, because the introduction of a RIP régime makes people think
+the system is "better".
+
+It's very easy to buy mobile phones specifically set up to be planted
+as bugs.  One of Duncan's slides [Ian was running PowerPoint in time
+with Duncan's VHS presentation, très surreal] listed
+http://www.mobilephonebug.co.uk/ -- easy to make the phones, easy to
+buy (prices shown on the slide read £398,75 for one model and £543,75
+for another).  It became very evident, in one bugging case, of the
+source of the intercepts, as the line got dropped and, calling back,
+the tapes played an apology from Orange for not being able to connect
+the call!  Duncan joked about the govt having a deal with Orange, as it
+always seems to be Orange who are the telco in these cases.
+
+There's a clear lack of accountability and transparency here.  The
+National Crime Squad, in pticlr, seem to favor using planted mobile
+phone bugs, as this neatly evades the ban on wiretap evidence being
+adduced as evidence in court.
+
+The DG of NCIS, even, has been accused of lying on these forms.  Yet
+another flaw in these processes -- they're, effectively, rubberstamped.
+[The implication here was that the DG had been misled by his
+underlings, I think]
+
+Introduction of RIP powers will change things but it's important to
+remember that companies cannot be trusted not to automate systems for
+their convenience, not to give more information than they should --
+being "helpful", and not to fail to erase data when they should etc.
+[There's an interesting adage on UK Crypto recently about a hotel CCTV
+tape, see http://makeashorterlink.com/?R1D865794 for info]
+
+In five years, we've gone from none to thousands of phone requests.
+Extrapolating this, we'll see a similar massive expansion in Net
+surveillance, when the RIP régime is introduced.
+
+With cell site data, normally, paging messages (whereareyou pings)
+should only go out to locate phones on initiation of a call and,
+possibly, at the end but we believe this is not the case, in order to
+allow the collation of cell site histories.
+
+::::::::::::::::::::::::::::::::
+ [3] The consultation documents
+ Simon Watkin, Home Office
+::::::::::::::::::::::::::::::::
+
+Simon's slides are online at http://www.fipr.org/sfs6/watkin.ppt
+
+[I made very poor notes of Simon's presentation, as I'm quite familiar
+with the consultations already.]
+
+He reiterated the necessity and proportionality principles.  And that
+Part I, Chapter II of RIP is not yet in force, despite newspaper
+assumptions to the contrary.
+
+Despite the appearance of last year's Snoopers' Charter, it was "always
+the intention" only to let ~specific~ public authorities have access to
+the data to which they have an ~explicit~ need.
+
+"SPoCs add Quality Control".  "All public officials engaged in this
+process should go through the [SPoC] training".
+
+Restriction of access by purpose had been assumed, apparently.  Perhaps
+(qv the consultation paper), individual authorities could be tied down
+to specific types of criminality.
+
+Reiterated "Double Lock" principle [qv consultation]
+
+Retention background
+ - ATCSA
+ - Voluntary vs Mandatory Code of Practice
+ - Must specify maximum retention period
+ - Purpose for retention must match the purpose for access
+
+Sunset clause
+ - ability to impose a mandatory CoP ceases two years after
+   the passage of the Act [ATCSA]: 2003-12-13
+ - the sunset clause can be extended but only if the new clause
+   is introduced before the expiry of the original one.
+
+Issues emerged:
+ - APIG report [we should get a copy of this]
+ - All the powers in legacy legislation [not the DPA, despite Duncan]
+ - Multi-agency SPoCs -- RIP's single-agency rqmt was intended as
+   a DPA-like container, to reduce the amount that people's data
+   were spread around, to protect HRA rights.  APIG suggested a SPoC
+   body, as it were.  HO are looking for public opinion to sway it
+   either way [it's ironic that we, rightly, bitched about the amount
+   that RIP leaves to secondary legislation and one of the few things
+   in the Act itself will almost certainly need amending ;) ]
+ - Definition of comms data types
+ - "Predictive fishing"
+ - Subject access requests
+ - Openness and transparency of oversight -- HO are aware that Sir
+   Swinton Thomas's public profile needs raising. [See a point in the
+   Q&A session below...]
+ - State of the "technology war"
+
+The HO does wish RIP to be the sole régime, apparently.  [Simon
+mentioned sth about how difficult it would be to repeal all prior
+powers, some of which are only in common law, but I think we should
+recommend that new primary legislation should just repeal all other
+powers implicitly, without having to enumerate them; I don't think that
+would be unconstitutional. Worth looking into, anyways. Can someone
+who's more anally acquainted with British constitutional law than me
+advise me, please? :) ]
+
+Issues around retention [Simon was rather blasé about preservation,
+qvb]
+ - Bespoke systems for retention => COST!
+ - Industry hesitant to volunteer
+   - Information Commissioner's advice
+   - Possibility of DPA prosecutions
+   - CSPs are potentially a quasi-public authority under the auspices
+     of the HRA -- Simon committed the HO to issuing whatever we call
+     amicus briefs in any cases that would ensue here
+   - Potential of loss of business to more privacy-aware competitors
+   - Would prefer to be mandated than to volunteer [I think]
+
+Issues on Data Protection
+ - APIG
+ - Timed to precede consultation [I forget ~what~ was so timed]
+   - Call for HO to drop retention plans
+   - Ignores LEAs' case
+   - Call for negotiations on Data Preservation
+ - ... [Interesting slide, didn't note it all down]
+
+Possibly ways fwd
+ - DPA issues by s28 of DPA
+ - ... [Interesting slide, didn't note it all down]
+
+Looking to return to Parliament with a new version of last summer's SI.
+
+** CONSULTATION DEADLINE IS 2003-06-03, only three weeks away!! **
+
+::::::::::::::::::::::::::::::::::::::
+ [3] EU actions
+ Philippe Gérard, European Commission
+::::::::::::::::::::::::::::::::::::::
+
+Philippe's slides are online at http://www.fipr.org/sfs6/gerard.ppt
+[I was very disappointed that the guy had to dash back on the Eurostar
+straightaway, as I'd've liked to have talked to him some more.  Ian was
+very impressed that he came along, though, at the drop of a hat.
+Really good speaker, though.]
+
+Directive 2002/58/EC on Privacy and Electronic Comms (replaced
+97/66/EC)
+
+Reports:
+ - Eighth Implementation report COM 200(338), dated 2002-12-03:
+   http://makeashorterlink.com/?K5B346694 -- requested greater clarity
+ - JAI EU Council of Conclusions of 2002-12-19 on IT and
+   Organised Crime -- should comply with the DP principles of ECHR
+ - Data Protection Working Party opinion 5/2002
+
+Most national laws and plans are currently inoperative.
+
+Things are limited by a conflict between the Third and First Pillars of
+the EU (intergovernmental cooperation and Community law, respectively)
+
+Main sources of EU law:
+ - General principles of Community law, like proportionality,
+   including Giscard d'Éstaing's Constitutional Convention
+ - ECHR Articles 8 and 10 (privacy, free expression, resp)
+ - EU Charter on Fundamental Rights -- Art 8 is DP [qv]
+   http://europa.eu.int/comm/justice_home/unit/charte/index_en.html
+   = site; charter itself = http://makeashorterlink.com/?Z32421694
+ - "General" DP Directive 95/46/EC and "specific" DP Directive
+   2002/58/EC
+
+2002/58/EC:
+ - Art 5 = Confidentiality
+ - Art 4 = security
+ - Art 6 = rules on traffic data
+ - Art 15(1) = "Public order derogations"
+
+NB: Data retention measures are neither required nor authorised by the
+Directive. If a Member State adopts any such measures, they must be in
+line with the Directive.
+
+Art 15(1) has two tests:
+ - Data retention and the internal market
+   - Proportionality (cost burden for operators)
+   - Avoid (as much as poss) a patchwork of local laws
+ - Data retention and Human Rights
+   - For specific, listed purposes
+   - Necessity, appropriateness and proportionality in a democratic
+     society --> ECHR
+   - Adequate safeguards
+   - Legislative measures (so no voluntary code of practice, Simon
+     Watkin was shaking his head here)
+   - For a limited time period
+
+EURISPA sees no need for data retention.  The Article 29 Data
+Protection Working Party has an opinion too -- qv [yes, that's really
+how my notes read, sorry!]
+
+He is philippe.gerard@cec.eu.int
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+ [5] Oversight landscape relating to Human Rights
+ Prof Douwe Korff
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Human rights activist and Data Protection lawyer, in that order.
+No slides.
+
+Dislikes voluntary codes, where one can do something that would be
+unlawful, so long as one complies with a voluntary CoP.
+
+Very disdainful [as was Dan Cooper of Covington & Burling] of Simon
+Watkins' disparagement of the difference between retention and
+preservation.  Retention => keep information in case it's useful
+down the line (see First Pillar).  Preservation => the data are being
+kept anyways, just provide lawful access on request.  Data destroyed
+when the CSP no longer needs it (see Directives and Criminal law)
+
+EU laws are framed in the context of "people have rights, States can
+only interfere with them under certain principles":
+ - Interferement must be based on a law
+ - Interferement must serve a specific, legitimate purpose
+ - Interferement must be proportionate and necessary -- in the
+   individual case, not generically.
+ - There must be procedural safeguards (generally judicial ones)
+
+Prof disagrees that Parliament ~can~ [legally] decide on blanket
+retention, as the third point above requires that retention (etc)
+be proportionate and necessary ~in the individual case~, not more
+generally, as an anti-terrorist measure, for example
+
+Also, see Working Party document 64 (dated October 2002): "in a
+specific case"
+
+2003-01-29 Working Party opinion on billing data would seem to concur
+again -- "the general push of Home Office legisliation [and EU security
+apparatus more widely] may well fall foul of EU Human Rights laws."
+
+Prof concerned about openness.  Thinks there should be automatic
+notification at the end of investigations, along the lines of:
+"Dear Sir, your data were involved in an investigation.  You were
+found to have been innocent/unrelated.  Your data have now been
+destroyed."
+
+:::::::::::::::::::::::::::::::::::::::::
+ [6] Q&A session with the above speakers
+:::::::::::::::::::::::::::::::::::::::::
+
+Simon Watkin mentioned that the Home Secretary can issue a certificate
+under s28 of the DPA that data are required for an investigation and
+that this should be sufficient under English law.
+
+Prof Korff disagreed and doesn't believe in magic Home Sec certificates
+and he believes judges will still need to agree on ~specific~,
+non-abstract proportionality.
+
+Caspar Bowden asked Simon Watkin about blanket retention.  Can s28
+DPA certs survive a legal challenge.  Also, how can the public have
+confidence in Sir Swinton Thomas's technical competence if he remains
+so elusive?
+
+Simon Watkin mentioned the pre-ATSCA discussions about voluntary data
+retention schemes.  He implied that these might still be under
+discussion.
+
+Someone agreed about the need for Sir Swinton Thomas to raise his
+public profile, pticly as someone asked [in all seriousness, I think]
+if he actually exists at all.  's worth reading PI's correspondence
+with him : http://makeashorterlink.com/?U1FC21794 , where he appears
+to be stonewalling -- pticly over how Secretaries of State authorise
+interception warrants.  Sir Swinton seemed indignant that they're not
+rubberstamped, yet how much time can Blunkett really spend on them?
+
+Ross Anderson: In many countries, expired interception warrants are
+disclosed to the subject, in countries as varied as US and NL.  What's
+the govt's opinion?  [I need to remember to ensure this point is raised
+in our response]
+
+Simon Watkins mentioned that this was included in the consultation.
+He raised the issue of "would you want to know if some wrong number
+you'd received had ended up hooking you into some investigation?" and
+seemed surprised that most people in the room couldn't understand why
+people ~wouldn't~ want to know.
+
+The Information Commissioner is waiting for the results of this
+retention debate before tackling the uncertainty in the current
+preservation rqmts on business.  Someone [I'm pretty sure this was
+a guy speaking for the Office of the Information Commissioner, but I
+didn't catch his name] raised that it might be the case, under contract
+law, that BT bills could be challenged up to six ~years~ after billing,
+which would imply six years of data preservation, which is surely
+ridiculous and should be tightened up!
+
+Prof Korff suggests that idea [viz six years] is patently rubbish and
+should be the subject of a popular campaign [that's us!] asking people
+to swear to their service provider that they won't contest their bills
+and, so, can the service provider destroy the records now, please, as
+there's no longer a legitimate reason to keep them.  This could be
+backed up by a subsequent Subject Access Request under the DPA, to
+check it's been done.  Email wouldn't be any good for this, as it's
+not sufficiently legally binding [and I wouldn't wanna explain even
+to someone from BT Trustwise that something was signed well enough
+under the foolish provisions of s7(3) of the Electronic Communications
+Act 2000, qv http://www.faxyourmp.com/q_a.php3#digitalsig ], but this
+would all prevent a CSP from suggestion data retention was still just
+data preservation.
+
+:::::::::::::::::::::::::::::::::
+ [7] Legality of retention
+ Dan Cooper, Covington & Burling
+:::::::::::::::::::::::::::::::::
+
+Dan argued the new retention framework violates Art 8 and goes against
+the norms of Data Protection and privacy.
+
+The Framework decision ("on retention of traffic data...") calls for
+mandatory data retention for between 12 and 24 motnhs.  Source,
+destination, time, subscriber and comms device used would be kept for
+any communication.
+
+Possibility of challenging the legality of this under ECHR Art 8, EU
+Charter and Title 6 of the EU Treaty.
+
+This issue hasn't been addressed before as, previously, LEAs have
+traditionally held the [wiretap] data and, thus, dealt with issues
+around access and retention themselves.
+
+Wiretap and phone meter data judgement caselaw do suggest that Art 8
+protections would cover the extrapolations under RIP and ATCSA.
+
+Foreseeability [I'm not quite sure I understood this, so the notes may
+be a little sketchy].  Monitoring and surveillance laws have to protect
+certain classes of privileged comms (lawyers' conversations with their
+clients, for example).  Overbroad surveillance that interferes with
+that (or with unrelated third parties, for example) must take this into
+account.  An example Dan gave would be where a lawyer's spouse might be
+under surveillance, but some of the lawyer's client conversations might
+also get hoovered up.
+
+This foreseeability will run against data retention, not least because
+retention is always going to be broad-based.  Ignoring this would
+require a change in the jurisprudence of the European Court.
+
+Necessary in a democratic society.  This means that measures would
+require there to have been a pressing social need, such as the change
+in the nature of the world since the advent of popular use of the Net.
+
+Summarising, under the European Court's jurisprudence, the Data
+Retention Directive -- and any national law based thereupon, enabling
+a priori data retention, would be challengable under Article 8 of the
+ECHR, guaranteeing our right to privacy.
+
+::::::::::::::::::::::::::::::::::::::::
+ [8] Technical and economic feasibility
+ Roland Perry, LINX
+::::::::::::::::::::::::::::::::::::::::
+
+How easy is it to store these [meta]data?  Do CSPs log the data?  Not
+always, the CLID of a DUN connexion to a RADIUS server won't
+necessarily be logged by all ISPs.  Actions might be taken upon it at
+the time (like dropping calls from a persistant dialup abuser), but
+the metadata prolly aren't logged.
+
+The Data Retention Directive mentions data "required to process a call"
+What is that?  Email From: headers aren't ~required~ to send the mail.
+
+Period of storage should reflect the business purpose (and staying
+friendly with the police isn't a legitimate business purpose  :o)
+
+What do CSPs charge?  They're only allowed cost recovery.  Some LEAs
+are quite keen to verify that's all they're being billed.  Some CSPs
+don't charge or just charge a token sum.  Roland believes all CSPs
+run these processes at a loss.
+
+Cost of retention?  If we only have data preservation, the cost
+increase is nil.  Once LEAs know the data are there, though, the costs
+of disclosure would increase.  If the law changes to increase the
+data retention time, the costs would depend on the scalability of
+existing archival systems, if they even exist.
+
+Roland estimates £1 (one pound) per annum, per subscriber for
+retention.  Disclosure, of course, must be in the tens of pounds, at
+least.
+
+::::::::::::::::::::::::::::
+ [9] The European landscape
+ Tony Bunyan, Statewatch
+::::::::::::::::::::::::::::
+
+EU Charter of Fundamental Rights is included in Giscard d'Éstaing's
+Constitutional Convention.
+
+Nine, of the 15 states in the EU, are introducing Data Retention laws.
+Only two are opposed.  Éire is insisting on three years' retention,
+at the top of the scale.  Accession countries will have to abide by
+existing practices [or something].  Of course, once most countries have
+retention laws, the evangelists for them can insist on harmonistion of
+EU national laws to enforce retention on the detractors (and acceding
+countries, subsequently).
+
+Remember the old Cold War arguments, though.  The bad things about
+the Soviet Bloc, we were told, were that their freedom of movement was
+impeded by surveillance (both within and without the Bloc) and that
+there was wholesale surveillance of citizens.  Compare and contrast
+with the Genoa protestors being monitored by the Schengen Information
+System.
+
+::::::::::::::::::::::::::::::::
+ [a] Purposes of data retention
+ Richard Clayton, FIPR
+::::::::::::::::::::::::::::::::
+
+Slides are online at http://www.fipr.org/sfs6/clayton.ppt and
+http://www.cl.cam.ac.uk/~rnc1/talks/030514-DataRetention.pdf
+[Richard has mailed me to point out the PPT might disappear at some
+point, but the PDF will be there forevermore.]
+
+Normal policing needs only recent data -- data still around at the time
+of the initial investigation: "Please keep these data, now we're
+investigating $badguy"
+
+Some policing is now wanting to look at older data, to investigate
+the criminal planning stage.
+
+Lots of great slides with information about numbers.  Some I jotted
+down:
+
+Customs and Excise (for January to March 2000): 18.940 requests
+(mainly RDQs).  3% (568 Nº) billing data; 0,3% (57 Nº) "other".
+~1515 requests per major operation.
+
+Met Police (2001): 127.000 requests
+
+Scottish Drug Enforcement Agcy (who don't just do drugs but do major
+crime stuff too) (for 2001): 73 criminal enterprises "disrupted".
+174 arrests by 160 officers.  54.000 "subscriber data" requests
+(740 per criminal network). 300 "itemised call records" (4 per netwk).
+1000 "traffic data".
+
+Food Standards Agency: 66 relevant enqs, 100 uses of comms data.
+
+DTI CIB & Legal Svcs Directorate: ~100 enqs, 200 uses.
+
+Radiocommunications Agency: ~25 enqs, 400 uses.
+
+HO IND: 24 investigations of organised crime, ~1200 reqs (~50 per
+investigation)
+
+Information Commissioner: 109 investigations, 52 subscriber checks, 36
+itemised records.
+
+Serious Fraud Office: 40 accesses per annum.
+
+999 calls
+ - Coastguard says 112 "interrupted calls" per annum
+ - Hoax calls:
+   - Ambulance Svc work with the cops, no data.
+   - Fire Service: 75.000 hoaxes (disproportionately in Scotland)
+     4.400 investigated as arson, 85 prosecutions requiring comms
+     data access for hoaxes
+   - Coastguard: 206 hoaxes.
+
+DEFRA: 12 accesses per annum
+
+Medical Devices Agency: 20 per annum
+
+NI NHS Counterfraud Agcy: 10 per annum [?]
+
+Conclusion: some agencies are so low volume that they will never become
+accustomed and accomplished at using the system and the forms.  Such
+agencies will never have experienced SPoCs.  Much better to get the
+cops to help them with their investigations, pticly with understanding
+and interpreting the acquired metadata.
+
+More common themes:
+ - Agencies need to get and use the call mapping tools
+ - Cops don't care about helping, as it's not their priority
+ - Telcos don't care, when they use their DPA discretion to refuse
+   access requests, there is rarely a court order insisting upon it,
+   even with some 999 "life-threatening" cases => it can't've been
+   ~that~ important, surely?
+
+ - There's a public interest issue to consider the efficiancy of our
+   regulators, if they can't use acquired comms data well, might their
+   other techniques suck too? [my words, not Richard's!]
+
+ - Importantly, who do we, as a society, want to enforce our laws?
+   Might we be better served by getting the cops to do everything,
+   using the expertise of these other agencies when required?
+
+ - Interrupted 999 calls are a special case (though hoaxes prolly
+   aren't)
+
+ - There's a HUGE lack of dsata here about what these public svcs
+   are spending our tax money on in their investigations.
+
+:::::::::::::::::::::::::::::::::::::::::::::::::
+ [b] Q&A session with the second set of speakers
+:::::::::::::::::::::::::::::::::::::::::::::::::
+
+Forensic quality of data is pure.  Email logs (etc) really aren't
+kept in forensic circumstances; someone with root can just edit the
+damn things!
+
+Even the US aren't going for data retention, but favoring data
+preservation, as they've had such a régime for a while.  Remember, on
+September 12, 2001, all UK ISPs were asked to preserve their existing
+data for a month, which was renewed each month until Jan 2002 and
+worked really well.  This would suggest that a preservation régime
+might well be good enough, despite the HO's protestations to the
+contrary.
+
+Richard Clayton suggested the APIG report was good background reading:
+http://www.apig.org.uk/APIGreport.pdf
+
+[ends]
+
